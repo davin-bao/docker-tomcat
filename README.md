@@ -7,10 +7,10 @@ sudo docker run -v /alidata/java/:/home/java -p 8080:8080 --name tomcat davinbao
 
 ## Volume structure
 
-java: WWW root
+root dir: /home/java
 
-main jar file: java/RMS.jar
+main jar file: /home/java/app.jar
 
-java/logs: error logs
+error logs dir: /home/java/log
 
-java/config: tomcat config file dir
+tomcat config file dir: /home/java/config
